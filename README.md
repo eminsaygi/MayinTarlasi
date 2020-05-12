@@ -19,7 +19,7 @@ Arayüz Java Swing ile geliştirilmiştir.
 
 <img src="https://github.com/eminsaygi/MayinTarlasi/blob/master/images/geliştirici.PNG"></a>
 
-<img src="https://github.com/eminsaygi/MayinTarlasi/blob/master/images/büyük.PNG"></a>
+
 
 
 
@@ -27,5 +27,6 @@ Arayüz Java Swing ile geliştirilmiştir.
 
 
 <img src="https://github.com/eminsaygi/MayinTarlasi/blob/master/images/menü.PNG"></a>
+
 
 <img src="https://github.com/eminsaygi/MayinTarlasi/blob/master/images/özelleştir.PNG"></a>
