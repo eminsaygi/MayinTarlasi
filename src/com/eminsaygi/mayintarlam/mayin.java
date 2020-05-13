@@ -574,56 +574,58 @@ public final class mayin implements ActionListener, MouseListener {
                      for (int j = 0; j < btnyukseklik; j++) {
                            kutusayisi = 0;
  
-                           if (mayinDizi[i][j] != 9) {
+                           if (mayinDizi[i][j] != 7) {
                                   if (i > 0 && j > 0) {
-                                         if (mayinDizi[i - 1][j - 1] == 9)
+                                         if (mayinDizi[i - 1][j - 1] == 7)
                                                 kutusayisi++;
                                   }
  
                                   if (i > 0) {
-                                         if (mayinDizi[i - 1][j] == 9)
+                                         if (mayinDizi[i - 1][j] == 7)
                                                 kutusayisi++;
                                   }
  
                                   if (i > 0 && j < btnyukseklik - 1) {
-                                         if (mayinDizi[i - 1][j + 1] == 9)
+                                         if (mayinDizi[i - 1][j + 1] == 7)
                                                 kutusayisi++;
                                   }
  
                                   if (i < btngenislik - 1 && j > 0) {
-                                         if (mayinDizi[i + 1][j - 1] == 9)
+                                         if (mayinDizi[i + 1][j - 1] == 7)
                                                 kutusayisi++;
                                   }
                                   if (i < btngenislik - 1) {
-                                         if (mayinDizi[i + 1][j] == 9)
+                                         if (mayinDizi[i + 1][j] == 7)
                                                 kutusayisi++;
                                   }
  
                                   if (i < btngenislik - 1 && j < btnyukseklik - 1) {
-                                         if (mayinDizi[i + 1][j + 1] == 9)
+                                         if (mayinDizi[i + 1][j + 1] ==7)
                                                 kutusayisi++;
                                   }
  
                                   if (j > 0) {
-                                         if (mayinDizi[i][j - 1] == 9)
+                                         if (mayinDizi[i][j - 1] == 7)
                                                 kutusayisi++;
                                   }
                                   if (j < btnyukseklik - 1) {
-                                         if (mayinDizi[i][j + 1] == 9)
+                                         if (mayinDizi[i][j + 1] == 7)
                                                 kutusayisi++;
                                   }
                                   mayinDizi[i][j] = kutusayisi;
                            }
                      }
               }
- 
-              for (int i = 0; i < btngenislik; i++) {
+ /*
+  for (int i = 0; i < btngenislik; i++) {
                      for (int j = 0; j < btnyukseklik; j++) {
                            System.out.print(" " + mayinDizi[i][j]);
                      }
                      System.out.println("");
               }
  
+ */
+             
        }
  //Mayınların koordinatını burdan random üretiyoruz
        public int[] RandomUret(int butongenislik, int butonyukseklik, int mayin) {
